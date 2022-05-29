@@ -26,6 +26,8 @@ function myFunction() {
     audio.play();
     playpause.innerHTML = "<i class='bx bx-music' ></i>";
   }
+
+  AOS.refresh();
 }
 
 //--//
